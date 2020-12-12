@@ -5,6 +5,9 @@ public class Shape {
     public String name;
     public double area, perimeter;
 
+    public Shape(String name) {
+        this.name = name;
+    }
 
     public double calculateArea(){
         return 0;
