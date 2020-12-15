@@ -1,6 +1,6 @@
 package day38_inheritance_part2;
 
-public class Vehicle {
+public class Vehicle1 {
 
     int maxSpeed= 120;
 

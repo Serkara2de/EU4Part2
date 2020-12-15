@@ -1,6 +1,6 @@
 package day38_inheritance_part2;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle1{
 
     int maxSpeed=180;
 

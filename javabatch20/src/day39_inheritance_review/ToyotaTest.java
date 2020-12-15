@@ -3,7 +3,15 @@ package day39_inheritance_review;
 public class ToyotaTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		Toyota toyota = new Toyota(36);
+
+		toyota.steer(45);
+		toyota.accelerate(20);
+		toyota.accelerate(50);
+		toyota.accelerate(-40);
+
+
 
 	}
 
