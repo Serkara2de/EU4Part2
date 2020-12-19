@@ -15,6 +15,10 @@ public final class Tester extends Employee { // Tester IS A Employee, Tester IS 
         System.out.println(jobTitle+" "+ " is testing the application");
     }
 
+    @Override
+    public void work(){
+        System.out.println(jobTitle+" "+name+ " is automating the application");
+    }
 
 
 
