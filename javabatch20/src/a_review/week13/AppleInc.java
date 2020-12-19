@@ -62,6 +62,8 @@ public class AppleInc {
 
 
         System.out.println("========================================================");
+        scrum1.terminateTester("A01");
+        scrum1.terminateDeveloper("B04");
         System.out.println(scrum1);
 
     }
