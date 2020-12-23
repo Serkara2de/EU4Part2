@@ -1,9 +1,9 @@
-package Repl;
+package ReplIt.Repl;
 
 public class Main {
     public static void main(String[] args) {
 
-        Repl.Db db = new Repl.Db();
+        ReplIt.Repl.Db db = new ReplIt.Repl.Db();
         db.insertData("aaa",123);
 
 
