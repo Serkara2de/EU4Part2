@@ -11,14 +11,13 @@ public abstract class Shape {
 
     static String name;
     double area;
-    int perimeter;
-    static boolean hasVolume;
-    double volume;
+    double perimeter;
+
 
 
     public abstract double calculateArea();
     public abstract double calculatePerimeter();
-    public abstract double calculateVolume();
+
 
 
 
