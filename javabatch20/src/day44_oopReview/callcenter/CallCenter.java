@@ -21,7 +21,18 @@ public class CallCenter {
         wa.getCount();
         wa.setCount(4);
 
+        System.out.println("===============================");
 
+        VoiceCallable obj = new WhatsApp();
+       // obj = new WhatsApp2(); ==> can be done
+
+        //obj.launch(); ==>> Go to VoiceCallable and find the launch method and run it
+
+        ((MessagingApp)obj).launch();
+        ((MessagingApp)obj).allOSCompatible = false;
+        obj.call("Serkan");
+
+        ((VideoCallable)obj).videoCall();  //((WhatsApp)obj).videoCall();  They are same
 
 
     }
