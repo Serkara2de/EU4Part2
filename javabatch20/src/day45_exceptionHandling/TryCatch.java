@@ -11,6 +11,8 @@ public class TryCatch {
             System.out.println(str.charAt(1)); // WILL NOT EXECUTED
         }catch(Exception e){
             System.out.println("Exception happened in try block and was caught");
+            //EXCEL
+
         }
         System.out.println("After try catch block");
     }
